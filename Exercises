@@ -1,0 +1,15 @@
+Exercise 1:
+Run main.py which calls the functions in rgb_yuv_conversion.py file.
+
+Exercise 2:
+ffmpeg -i jennifer-aniston.jpg -vf scale=320:320 output-jennifer.png
+
+Exercise 3:
+
+Convert RGB to grayscale:
+ffmpeg -i jennifer-aniston.jpg -vf format=gray output_grayscale.png
+
+Compress image:
+ffmpeg -i jennifer-aniston.jpg -compression_level 100 output_compressed.jpg
+
+Exercise 4:
