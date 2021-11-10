@@ -1,1 +1,0 @@
-ffmpeg -i jennifer-aniston.jpg -vf format=gray output_grayscale.png

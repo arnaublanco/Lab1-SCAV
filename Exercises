@@ -7,9 +7,7 @@ ffmpeg -i jennifer-aniston.jpg -vf scale=320:320 output-jennifer.png
 Exercise 3:
 
 Convert RGB to grayscale:
-ffmpeg -i jennifer-aniston.jpg -vf format=gray output_grayscale.png
+ffmpeg -i jennifer-aniston.jpg -vf format=gray output_grayscale.jpg
 
 Compress image:
 ffmpeg -i jennifer-aniston.jpg -compression_level 100 output_compressed.jpg
-
-Exercise 4:

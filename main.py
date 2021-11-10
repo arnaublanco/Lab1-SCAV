@@ -31,7 +31,6 @@ print("----------")
 
 from scipy.fftpack import dct
 import soundfile as sf
-#import matplotlib.pyplot as plt
 
 y,sr = sf.read("audio/song.wav")
 y_comp = dct(y)

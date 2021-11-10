@@ -1,1 +1,0 @@
-ffmpeg -i jennifer-aniston.jpg -vf scale=320:320 output-jennifer.png
